@@ -66,8 +66,21 @@ a {
     height: 400px;
     background-attachment: fixed;
 }
-.page-title-area.item-bg-3 {
-    background-image: url(https://templates.envytheme.com/finix/default/assets/img/page-title/bg-3.jpg);
+.photo-bg{
+    background: url(https://templates.envytheme.com/finix/default/assets/img/page-title/bg-3.jpg);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .2;
     /*filter: blur(1px);
   -webkit-filter: blur(1px);*/
 }
